@@ -1,5 +1,6 @@
 import outputTriangle from "./triangle.js"
 import fizzBuzz from "./fizzbuzz.js"
+import chessboard from "./chess.js"
 
 function main() {
 	const args = process.argv.slice(2)
@@ -17,6 +18,10 @@ function main() {
 		fizzbuzz: () => {
 			console.log("running fizzbuzz...")
 			fizzBuzz()
+		},
+		chess: () => {
+			console.log("running chessboard...")
+			chessboard()
 		}
 	}
 
