@@ -1,0 +1,8 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "pedro-git-projects",
+  "license": "MIT",
+  "type": "module"
+}
