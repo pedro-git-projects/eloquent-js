@@ -1,7 +1,9 @@
-import outputTriangle from "./triangle.js"; 
+import outputTriangle from "./triangle.js"
+import fizzBuzz from "./fizzbuzz.js"
 
 function main() {
 	const args = process.argv.slice(2)
+
 	if (args.length === 0) {
 		console.log('Please provide an exercise name as an argument.')
 		process.exit(1)
@@ -12,6 +14,10 @@ function main() {
 			console.log("running triangle exercise...")
 			outputTriangle()
 		},
+		fizzbuzz: () => {
+			console.log("running fizzbuzz...")
+			fizzBuzz()
+		}
 	}
 
 	const input = args[0]
